@@ -1,0 +1,13 @@
+{
+    "path": [],
+    "_comment": "JSON for Distro Selection Tab (Picture: https://github.com/litecave/rpi-json/raw/default/01-example.png). You can use not only png format for icon in icon, but also jpg. URL IN subitems_url IS NOT REAL"
+    "os_list": [
+        {
+            "name": "DistroName",
+            "description": "Distro Description",
+            "icon": "RawIconURL.png",
+            "website": "WebsiteURL",
+            "subitems_url": "link.to/Distro-Version-Selection-Tab.json"
+        }
+    ]
+}
