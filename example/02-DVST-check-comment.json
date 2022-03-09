@@ -1,0 +1,29 @@
+{
+  "_comment": "JSON for Distro Version Selection Tab (Picture: https://github.com/litecave/rpi-json/raw/default/02-example.png). You can use not only png format for icon in icon, but also jpg."
+  "os_list": [
+    {
+    	"name": "Distro Name and Version [(Stable/Nightly/Beta/Something)]",
+      "description": "Distro Description",
+      "url": "link.to/distroImage",
+      "icon": "RawIconURL.png",
+      "release_date": "YYYY-MM-DD",
+      "extract_sha256": "Sha256ExtractionCheckSum",
+      "extract_size": LongIntSizeInBytes,
+      "image_download_size": LongIntSizeInBytes,
+      "image_download_sha256": "Sha256DownloadCheckSum",
+      "init_format": "systemd"
+    },
+    {
+      "name": "Distro Name and Version [(Stable/Nightly/Beta/Something)]",
+      "description": "Distro Description",
+      "url": "link.to/distroOtherImage",
+      "icon": "RawIconURL.png",
+      "release_date": "YYYY-MM-DD",
+      "extract_sha256": "OtherSha256ExtractionCheckSum",
+      "extract_size": LongIntSizeInBytes,
+      "image_download_size": LongIntSizeInBytes,
+      "image_download_sha256": "OtherSha256DownloadCheckSum",
+      "init_format": "systemd"
+    }
+  ]
+}
